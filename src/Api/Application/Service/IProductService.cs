@@ -1,6 +1,5 @@
 ﻿using Api.Application.Request;
 using Api.Application.Response;
-using Api.Domain;
 
 namespace Api.Application.Service;
 
