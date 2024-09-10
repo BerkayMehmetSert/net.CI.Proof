@@ -3,6 +3,9 @@ name: CI/CD Actions
 on:
   pull_request:
     branches: [ master, feature/*, fix/* ]
+  push:
+    branches: [ master, feature/*, fix/* ]
+
 
 jobs:
   build:
